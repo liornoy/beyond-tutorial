@@ -12,7 +12,7 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://vagrantcloud.com/search.
-  config.vm.box = "fedora/32-cloud-base"
+config.vm.box = "fedora/32-cloud-base"
 config.vm.synced_folder ".", "/vagrant", type: "virtualbox"
 config.vm.provision "shell", path: "setup.sh", privileged: false
   # Disable automatic box update checking. If you disable this, then

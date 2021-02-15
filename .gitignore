@@ -9,6 +9,9 @@ __pycache__/
 # Output
 nohup.out
 
+# SQlite
+*.sqlite3
+
 # Vagrant
 .vagrant/
 
